@@ -270,7 +270,7 @@
 }
 
 .section {
-  height: 230px;
+  height: 210px;
   background-color: black;
   position: relative;
   
@@ -334,4 +334,85 @@
 .transition_heading h3:first-child{
   color: #2da44e;
 
+}
+
+.codeimage{
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.codeimage img{
+  width: 100%;
+}
+
+.codeimagechild{
+  width: 450px;
+  position: absolute;
+  left:720px;
+  top:200px;
+  animation: slideIn 4s infinite;
+}
+
+@keyframes slideIn{
+  0% {
+        transform: translateX(150px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.github_copilot{
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  transition-property: height;
+  transition-duration: 5s;
+  transition-delay: 0s;
+  color:white;
+  overflow: hidden;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  
+}
+
+.github_copilot:hover{
+  height: 650px;
+}
+
+.arrow_line_copilot{
+  height: 620px;
+  width: 3px;
+  background: linear-gradient(#3fb950, #3fb950 80%, #3fb950);
+  margin-left: 50px;
+}
+
+.copilot_heading{
+  width: 50%;
+  text-align: left;
+  
+}
+
+.copilot_heading p{
+  font-size: 25px;
+
+}
+.copilot_heading p span{
+  color:#7d8590;
+}
+
+.copilot_heading h1{
+  font-size: 50px;
+  color:#3fb950;
+  margin-bottom: 100px;
+  
+
+}
+
+.copilot_heading h3{
+  margin-bottom: 130px;
+  
 }

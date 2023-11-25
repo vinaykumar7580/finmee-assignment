@@ -174,6 +174,33 @@ function Github() {
           </div>
         </div>
       </div>
+
+      <div className={style.codeimage}>
+        <img src="https://github.githubassets.com/assets/illu-copilot-editor-6474457a5b19.png" alt="codeimage" />
+        <div className={style.codeimagechild}>
+          <img src="https://github.githubassets.com/assets/illu-copilot-sidebar-3d2efb504577.png" alt="codesmallimage" />
+        </div>
+      </div>
+      
+      <div className={style.github_copilot}>
+        <div className={style.arrow_line_copilot}></div>
+        <div>
+          <img src="https://github.githubassets.com/assets/git-branch-productivity-c304b83d09c7.svg" alt="" />
+        </div>
+        <div className={style.copilot_heading}>
+          <p>GitHub Copilot <span>empowers developers to complete tasks 55% faster with contextualized AI coding assistance across workflows.</span></p>
+          <h3><u>Explore GitHub Copilot {`->`}</u></h3>
+          <h1>22% increase</h1>
+          <p>in developer productivity after three years with GitHub</p>
+          <h3><u>Read the report {`->`}</u></h3>
+        </div>
+      </div>
+
+      <div className={style.codeimage}>
+        <img src="https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=1498&format=webpll" alt="" />
+      </div>
+      <br />
+      <br />
     </div>
   );
 }
