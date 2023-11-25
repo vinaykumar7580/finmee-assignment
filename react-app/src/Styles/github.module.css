@@ -1,0 +1,337 @@
+.body {
+  background-color: black;
+}
+
+/* navbar box properties */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20%;
+  padding: 5px 30px;
+  padding-right: 50px;
+  background-color: black;
+  color: #ffffff;
+}
+
+/* navbar left box properties */
+.navbar_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/* para properties of navbar left box */
+.navbar_left_box_pages p {
+  font-size: 16px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+/* the box which contain pages content */
+.navbar_left_box_pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar_left_box_pages_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+/* navbar right side box */
+.navbar_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+/* navbar right side search box  */
+.navbar_right_search {
+  height: 35px;
+  border: 1px solid #697795;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 150px;
+  padding: 0px 10px;
+  border-radius: 7px;
+  background-color: #30373b;
+}
+.navbar_right_search_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar_right_search_box_right {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #697795;
+  border-radius: 5px;
+  padding: 2px;
+  color: rgb(160, 170, 181);
+}
+
+/* sign in button property */
+.button_signin p {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+/* signup button property */
+.button_signup p {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: sans-serif;
+  padding: 8px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+/* main box which shows two boxes */
+.main {
+  display: flex;
+  justify-content: top;
+  align-items: top;
+}
+
+/* left side box inside class main */
+.main_poster_box {
+  width: 60%;
+  position: relative;
+}
+
+/* right side box of class main */
+.main_image_box {
+  width: 40%;
+}
+
+/* image of right side box of class main */
+.main_image_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.connect_line {
+  position: absolute;
+  top: 95px;
+  left: 200px;
+}
+
+.connect_line div:first-child {
+  width: 9px;
+  height: 9px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  position: absolute;
+  top: 60px;
+  left: 8px;
+}
+
+.connect_line div:nth-child(even) {
+  width: 3px;
+  height: 265px;
+  background: linear-gradient(transparent, #7c72ff 30%);
+  position: absolute;
+  top: 80px;
+  left: 12px;
+}
+
+.line_arrow {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 455px;
+  left: 196px;
+}
+.line_arrow svg {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(102, 112, 222);
+  color: white;
+  padding: 5px;
+}
+
+.plain_line_middle {
+  height: 250px;
+  width: 3px;
+  background: linear-gradient(#7c72ff, #2da44e 80%, #3fb950);
+  position: absolute;
+  top: 505px;
+  left: 212px;
+}
+
+/* class container properties */
+.container {
+  width: 70%;
+  height: 700px;
+  color: #ffffff;
+  padding: 10px;
+  position: absolute;
+  top: 170px;
+  left: 250px;
+}
+
+.heading {
+  text-align: left;
+}
+
+.heading h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  font-family: "Mona Sans", "Mona Sans Header Fallback", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-feature-settings: unset;
+}
+.heading p {
+  color: #7d8590;
+  margin-top: -50px;
+  font-size: 32px;
+  font-family: "Mona Sans", "Mona Sans Header Fallback", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.input_box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 50px;
+  margin-top: 70px;
+}
+
+.input_box > div > input {
+  outline: none;
+  border: none;
+  font-size: 18px;
+  padding: 15px 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.input_box > div > button {
+  font-size: 18px;
+  padding: 15px 20px;
+  border: none;
+  background-color: #6e40c9;
+  border: 1px solid #6e40c9;
+  font-weight: bold;
+  color: #ffffff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.input_box > div > h4 {
+  border: 1px solid #6e40c9;
+  padding: 14px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.input_box > div > h4:hover {
+  border: 1px solid #ffffff;
+}
+
+.container > p {
+  font-size: 20px;
+  margin-top: 70px;
+  text-align: left;
+  color: #7d8590;
+}
+.container > p > span {
+  background-color: rgb(0, 183, 255);
+  padding: 0px 7px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.multi_images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.multi_images > div > img {
+  width: 100%;
+}
+
+.section {
+  height: 230px;
+  background-color: black;
+  position: relative;
+  
+  
+}
+
+.section_container {
+  width: 80%;
+  height: 60px;
+  margin: auto;
+  position: absolute;
+  top: 815px;
+  left: 185px;
+  transition-property: height;
+  transition-duration: 5s;
+  transition-delay: 0s;
+  color:white;
+  overflow: hidden;
+  padding:10px;
+}
+
+.section_container:hover{
+  height: 300px;
+}
+
+.bag_arrow{
+  width: 25px;
+  height: 25px;
+
+}
+
+.bag_arrow svg {
+  width: 100%;
+  height: 100%;
+  background-color: #3fb950;
+  padding: 5px;
+}
+
+.section_container_first{
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap:50px;
+}
+
+.arrow_line_box{
+  height: 230px;
+  width: 3px;
+  background: linear-gradient(#3fb950, #2da44e 80%, #302f31);
+  margin-left: 15px;
+
+}
+
+.transition_heading h3{
+  font-size: 40px;
+  text-align: left;
+  line-height: 7px;
+
+}
+.transition_heading h3:first-child{
+  color: #2da44e;
+
+}
