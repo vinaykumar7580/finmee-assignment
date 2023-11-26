@@ -273,33 +273,29 @@
   height: 210px;
   background-color: black;
   position: relative;
-  
-  
 }
 
 .section_container {
   width: 80%;
-  height: 60px;
   margin: auto;
   position: absolute;
   top: 815px;
   left: 185px;
-  transition-property: height;
+  /* transition-property: height;
   transition-duration: 5s;
-  transition-delay: 0s;
-  color:white;
+  transition-delay: 0s; */
   overflow: hidden;
-  padding:10px;
+  color: white;
+  padding: 10px;
 }
 
-.section_container:hover{
+/* .section_container:hover{
   height: 300px;
-}
+} */
 
-.bag_arrow{
+.bag_arrow {
   width: 25px;
   height: 25px;
-
 }
 
 .bag_arrow svg {
@@ -309,110 +305,157 @@
   padding: 5px;
 }
 
-.section_container_first{
+.section_container_first {
   color: white;
   display: flex;
   justify-content: left;
   align-items: center;
-  gap:50px;
+  gap: 50px;
 }
 
-.arrow_line_box{
+.arrow_line_box {
   height: 230px;
   width: 3px;
   background: linear-gradient(#3fb950, #2da44e 80%, #302f31);
   margin-left: 15px;
-
 }
 
-.transition_heading h3{
+.transition_heading h3 {
   font-size: 40px;
   text-align: left;
   line-height: 7px;
-
 }
-.transition_heading h3:first-child{
+.transition_heading h3:first-child {
   color: #2da44e;
-
 }
 
-.codeimage{
+.codeimage {
   width: 80%;
   margin: auto;
   position: relative;
 }
 
-.codeimage img{
+.codeimage img {
   width: 100%;
 }
 
-.codeimagechild{
+.codeimagechild {
   width: 450px;
   position: absolute;
-  left:720px;
-  top:200px;
+  left: 720px;
+  top: 200px;
   animation: slideIn 4s infinite;
 }
 
-@keyframes slideIn{
+@keyframes slideIn {
   0% {
-        transform: translateX(150px);
-    }
-    100% {
-        transform: translateX(0);
-    }
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
-
-.github_copilot{
-  height: 200px;
+.github_copilot {
+  /* height: 200px; */
   width: 80%;
   margin: auto;
-  transition-property: height;
+  /* transition-property: height;
   transition-duration: 5s;
-  transition-delay: 0s;
-  color:white;
+  transition-delay: 0s; */
   overflow: hidden;
+  color: white;
   display: flex;
   justify-content: top;
   align-items: center;
-  
 }
 
-.github_copilot:hover{
+/* .github_copilot:hover{
   height: 650px;
-}
+} */
 
-.arrow_line_copilot{
+.arrow_line_copilot {
   height: 620px;
   width: 3px;
   background: linear-gradient(#3fb950, #3fb950 80%, #3fb950);
   margin-left: 50px;
 }
 
-.copilot_heading{
+.copilot_heading {
   width: 50%;
   text-align: left;
-  
 }
 
-.copilot_heading p{
+.copilot_heading p {
   font-size: 25px;
-
 }
-.copilot_heading p span{
-  color:#7d8590;
+.copilot_heading p span {
+  color: #7d8590;
 }
 
-.copilot_heading h1{
+.copilot_heading h1 {
   font-size: 50px;
-  color:#3fb950;
+  color: #3fb950;
   margin-bottom: 100px;
-  
-
 }
 
-.copilot_heading h3{
+.copilot_heading h3 {
   margin-bottom: 130px;
+}
+
+.footer {
+  width: 80%;
+  margin: auto;
+  color: #ffffff;
+  display: flex;
+  justify-content: top;
+  align-items: flex-start;
+  gap:30px;
+  padding: 10px;
+  text-align: left;
+}
+
+.footer_box_first {
+  width: 40%;
+}
+.footer_box_first h5{
+  font-size: 18px;
+}
+
+.footer_box_first p{
+  font-size: 18px;
+  color: #7d8590;
+  margin-top: -20px;
+}
+
+.footer_box_first button{
+  background-color: transparent;
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+  padding:15px 20px;
+  border: 1px solid #7d8590;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.footer_box_second {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   
+}
+.footer_box_second div div{
+  line-height: 30px;
+}
+a {
+  text-decoration: none;
+  color: #7d8590;
+}
+
+a:hover{
+  color:#6e40c9;
+  text-decoration: underline;
 }
