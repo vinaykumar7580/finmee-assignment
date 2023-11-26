@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Finmee Tech Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ntwist.com homepage
 
-## Available Scripts
+- **Navbar**: handleScroll function for handling scrolling and change navbar text color and background. Navbar contain logo, pages link.
+- **class main**: class main contain big poster image which have position relative with class navbar and class poster.
+- **class navbar**: navbar for home page which contain website logo and pages link.
+- **class boxhover**: box hover for Industries page link.
+- **class poster**: poster image content with box, headings and image.
+- **class countrybox**: left side box which contain country flag's and name's at fixed position.
+- **class container**: container for boxes which contain image, title, paragraph and button.
+- **class container_box_mine**: first box showing information about mine optimization.
+- **class container_box_sustain**: second box showing information about sustainability.
+- **class container_box_mineral**: third box showing information about mineral processing.
+- **class container_box_oil**: fourth box showing information about oil and gas.
+- **class footer**: footer which contain information about country, pages link and copyright.
 
-In the project directory, you can run:
 
-### `npm start`
+## github.com homepage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **class navbar**: navbar which showing logo, button's and search box.
+- **class main**: this is main box which showing images for box placed after navbar.
+- **class container**: container which placed in center in page.
+- **class heading**: class heading shows heading, paragraph text, input and button in the container box.
+- **class multi_images**: this is last box in container class which shows multiple images in horizontally.
+- **class section**: class section added height and background color after main class box.
+- **class section_container**: class section_container showing a box which is added animation and there heading is productivity.
+- **class github_copilot**: this is second animation box 22% increase text content on UI.
+- **class footer**: this class contain a footer of homepage.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## deployment
 
-### `npm test`
+- **deploy link**: https://ntwist-tech-assignment.vercel.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
